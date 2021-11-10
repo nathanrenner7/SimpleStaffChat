@@ -1,0 +1,11 @@
+name: SimpleStaffChat
+version: 1.0
+api-version: 1.16
+main: me.pray.simplestaffchat.SimpleStaffChat
+commands:
+  staffchat:
+    description: Toggle staff chat on and off.
+    aliases: [sc]
+  screload:
+    description: Reload the config file of SimpleStaffChat.
+    aliases: [simplestaffchatreload, staffchatreload, scr]

@@ -1,0 +1,29 @@
+staffchat:
+  #Prefix for SimpleStaffChat messages
+  prefix: '&5[SimpleStaffChat] &6%player%: '
+
+  #Color of SimpleStaffChat messages
+  message-color: '&d'
+
+  #Message sent when SimpleStaffChat is enabled on a player level
+  enabled-msg: '&5[SimpleStaffChat] &f - &aEnabled For &6%player%'
+
+  #Message sent went SimpleStaffChat is disabled on a player level
+  disabled-msg: '&5[SimpleStaffChat] &f - &cDisabled For &6%player%'
+
+  #Message sent when SimpleStaffChat is reloaded
+  reload-msg: '&5[SimpleStaffChat] &f- &aReloaded Successfully'
+
+staff-login:
+  #Message sent when a staff member joins (true or false)
+  enabled: true
+
+  #If true, the message below is sent when a staff member joins
+  join-message: '&6%player% &ahas joined'
+
+staff-logout:
+  #Message sent when a staff member leaves (true or false)
+  enabled: true
+
+  #If true, the message below is sent when a staff member quits
+  quit-message: '&6%player% &chas quit'
